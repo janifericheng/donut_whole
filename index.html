@@ -1,0 +1,189 @@
+<!-- Below code was written by Janifer Cheng, September 2020, as part of the coursework from "Build
+Websites from Scratch with HTML & CSS" taught by Brad Hussey from "Freelancing Freedom Code College".
+Permission for publication of this work is given by Brand Hussey (bradhussey.ca) to Janifer I Cheng
+(janifer.org) for portfolio use. -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sunshine Farmer's Market</title>
+
+    <link href="farmer.css" rel="stylesheet" />
+  </head>
+  <body>
+    <a href="/" title="Return to Home Page" id="logo">
+      <img src="images/market_logo.png" alt="Sunshine Annual Farmer's Market" />
+    </a>
+
+    <div id="container">
+      <div id="main-content">
+        <h1>Welcome to Sunshine!</h1>
+        <p class="lead">
+          Welcome to the Annual Sunshine Farmer's Market. Our farmer's are
+          passionate about bringing you their finest whole foods. Don't forget
+          to drop by every Saturday at 10am.
+        </p>
+
+        <div id="special-offer">
+          <h2>Special Offer!</h2>
+          <p>
+            Don't forget, this Saturday when you buy 10 cuts of meat, you get 10
+            cuts free!
+          </p>
+          <img src="images/steak.png" alt="A juicy steak!" id="steak" />
+        </div>
+      </div>
+
+      <div id="sidebar">
+        <div class="widget">
+          <h3>Our Location</h3>
+          <address>
+            <ul>
+              <li>100 Farmer's Way</li>
+              <li>Farmtowne, Barnsville</li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="widget">
+          <h3>Our Mission</h3>
+          <p>
+            To bring you the freshest, finest quality whole foods our farms can
+            make!
+          </p>
+        </div>
+
+        <div class="widget">
+          <h3>Contact Us</h3>
+          <p>Send us an email at:</p>
+          <a href="mailto:farmers@market.com">farmers@market.com</a>
+        </div>
+      </div>
+    </div>
+    <!-- end container -->
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Donut Whole | Vegan Donut Shoppe</title>
+	<meta name="description" content="Donut Whole is a (fictional) Vegan Donut Shoppe based in Sunny Southern California.">
+
+
+	<!--Google Fonts integration: http://www.google.com/fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+	<!-- Normalize to clean up & standardize the browser default styles: http://necolas.github.io/normalize.css/-->
+	<link rel="stylesheet" href="css/normalize.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<!-- Modernizr allows HTML5 elements to work in older browers: http://modernizr.com/ -->
+	<script src="js/modernizr.js"></script>
+
+
+</head>
+<body>
+
+<div class="container">
+	<header class="main">
+		<nav>
+			<ul>
+				<li><a href="">Location</a></li>
+
+				<li><a href="">Menu</a></li>
+
+				<li id="logo"><a href="logo">Donut Whole</a></li>
+
+				<li><a href="">Recipes</a></li>
+
+				<li><a href="">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+</div><!-- container -->
+
+<div id="hero">
+	<div class="container">
+		<img src="images/donut-shoppe.png" alt="Donut Whole Storefront">
+		<p class="large-ribbon">Fresh Whole Ingredients</p>
+
+	</div><!-- end container -->
+</div><!-- hero -->
+
+<div class="container">
+	<div id="whole-story" class="clearfix">
+		<h1>The <em>Whole</em> Story</h1>
+		<p>We want to show the world what a <strong>real</strong> donut tastes like!</p>
+		<div id="story-excerpt">
+			<p>I'm baby edison bulb shoreditch la croix you probably haven't heard of them echo park jean shorts, seitan keffiyeh lomo man braid ramps. Lumbersexual fashion axe schlitz disrupt kale chips godard cornhole gentrify austin you probably haven't heard of them ugh air plant. Vexillologist whatever cliche hot chicken master cleanse next level yuccie pop-up chicharrones franzen.   <a href="">Read more about our story here.</a><p>
+		</div><!-- end story-excerpt-->
+
+		<div id="best-donut">
+			<h3>Best Donut in California!</h3>
+			<p>Well, look at that!  We were voted #1 donut shop in California in 2013.</p>
+		</div><!-- end best-donut-->
+	</div><!-- end whole-story-->
+
+	<hr>
+
+	<div id="news-events" class="clearfix">
+
+		<div id="articles">
+			<h2>News, Events &amp; Such</h2>
+
+			<article class="news">
+				<header>
+					<h3>Dairy Free Donuts</h3>
+					<time datetime="2020-09-18">September. 18th, 2020</time>
+				</header>
+				<section class="excerpt">
+					<p>Tbh iceland hot chicken, master cleanse brooklyn 3 wolf moon fixie shaman actually. Edison bulb kombucha vinyl, scenester shabby chic jianbing tacos godard live-edge bicycle rights. Keytar disrupt snackwave af bicycle rights kinfolk pok pok. Art party raw denim cray vaporware irony. <a href="">Read more &rarr;</a></p>
+				</section>
+
+				<footer>
+					Posted under <a href="">News</a></footer>			</article>
+
+					<article class="event">
+				<header>
+					<h3>Vegan Donut Workshop</h3>
+					<time datetime="2020-11-15">November 15, 2020</time>
+				</header>
+				<section class="excerpt">
+					<p>Tbh iceland hot chicken, master cleanse brooklyn 3 wolf moon fixie shaman actually. Edison bulb kombucha vinyl, scenester shabby chic jianbing tacos godard live-edge bicycle rights. Keytar disrupt snackwave af bicycle rights kinfolk pok pok. Art party raw denim cray vaporware irony. <a href="">Read more &rarr;</a></p>
+				</section>
+
+				<footer>
+					Posted under <a href="">Events</a></footer>			</article>
+		</div><!-- end articles -->
+
+		<div id="feature-image">
+			<img src="images/assorted-donuts.png" alt="Tasty Assorted Donuts">
+		</div><!--end feature-image-->
+
+	</div><!--end news-events-->
+
+	<hr>
+
+</div><!--end container-->
+
+<footer class="main">
+	<div class="container clearfix" >
+
+	<div id="uncopyright">
+		<p>Uncopyright &copy; 2020 <strong>Janifer Cheng</strong></p>
+		<p>Please recycle this code responsibly</p>
+	</div><!--end uncopyright-->
+
+	<div id="credits">
+		<p>Sustainably coded with love by <a href="http://janifer.org">Janifer</a></p>
+	</div><!--end credits-->
+	</div><!--end container-->
+</footer>
+
+
+</body>
+</html>
